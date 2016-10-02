@@ -222,8 +222,8 @@ body {
 }
 #img_laba{
   position: relative;
-  top: -234px;
-  left: 476px;
+  top: -231px;
+  left: 473px;
 }
 .div_paused{
   width: 263px;
@@ -236,4 +236,20 @@ body {
   position: relative;
   top: -367px;
   left:246px;
+}
+.div_control_voice{
+  width: 116px;
+  height: 18px;
+  border: 1px solid black;
+  position: relative;
+  top:-251px;
+  left: 378px;
+
+
+}
+#img_laba_1{
+  position: relative;
+  top: 0px;
+  left: 30px;
+ 
 }
