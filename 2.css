@@ -1,0 +1,66 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+#div_left_body{
+width: 675px;
+height: 1500px;
+border: 1px solid black;
+background-color: white;
+position: absolute;
+top: 0px;
+left: 0px;
+}
+#div_left_top{
+width: 675px;
+height: 170px;
+border: 1px solid black;
+position: relative;
+}
+.span_left_title{
+  font-size: 30px;
+  color: #a2a8ac;
+  position: absolute;
+  top: 72px;
+  left: 50px;
+}
+.div_input_border{
+  width: 240px;
+  height: 27px;
+  border:1px solid #a2a8ac;
+  position: absolute;
+  top: 73px;
+  left: 390px;
+}
+#input_text{
+  width: 200px;
+  height: 14px;
+  outline: none;
+  border: none;
+  position: relative;
+  top: -6px;
+  left: 8px;
+
+}
+#img_jingzi{
+  position: relative;
+  top: 3px;
+  left: 2px;
+}
+#img_jingzi:hover{
+  cursor: pointer;
+}
+#div_left_middle{
+  width: 675px;
+  height: 278px;
+  border: 1px solid black;
+  
+}
+.div_left_picture{
+  width: 354px;
+  height: 257px;
+  border: 1px solid black;
+  position: relative;
+  top: -279px;
+  left: 290px;
+}
