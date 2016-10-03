@@ -1,5 +1,16 @@
 (function() {
-  
+  var img_laba = document.getElementById("img_laba");
+  var control_voice = document.getElementsByClassName("div_control_voice")[0];
+  img_laba.onmouseover = function(){
+    if (control_voice.style.display == "none") {
+    control_voice.style.display = "block";
+    img_laba.src = "";
+  }/*else if(control_voice.style.display == "block") {
+    control_voice.style.display = "none";
+    img_laba.src = "images/laba.png";
+  }*/
+}
+
     var img_play = document.getElementById("img_play");
     var audio_player = document.getElementById("audio_player");
     var audio_paused = document.getElementsByClassName("div_paused")[0];
@@ -22,7 +33,7 @@
         var currentTime = parseFloat(audio_player.currentTime);
         var duration = parseFloat(audio_player.duration);
         var a = parseInt((currentTime - duration) / 60);
-        var b = parseFloat((duration - currentTime) % 60).toFixed(1);
+        var b = parseFloat((duration - currentTime) % 60).toFixed(0);
         if (b < 10) {
             b = "0" + b;
         } else {
