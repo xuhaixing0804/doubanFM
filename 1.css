@@ -6,21 +6,21 @@ body {
 #divtop_title {
     width: 100%;
     height: 174px;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 .divtop_span {
     width: 362px;
     height: 60px;
-    border: 1px solid black;
+    border: 1px solid white;
     position: relative;
     left: 769px;
 }
 
 .divtop_span_1 {
-    width: 96px;
-    height: 14px;
-    border-right: 1px solid black;
+    width: 105px;
+    height: 30px;
+   
     color: #999;
     position: relative;
     top: 10px;
@@ -34,8 +34,8 @@ body {
 
 .ul_title {
     position: relative;
-    top: -20px;
-    left: 60px;
+    top: -35px;
+    left: 63px;
 }
 
 .li_title {
@@ -50,7 +50,7 @@ body {
     font-size: 13px;
     color: #999;
     position: relative;
-    top: -23px;
+    top: -37px;
     left: 72px;
 }
 
@@ -59,7 +59,7 @@ body {
     color: #999;
     background-color: #d4cda4;
     position: relative;
-    top: -24px;
+    top: -38px;
     left: 75px;
 }
 
@@ -204,7 +204,7 @@ body {
 .div_move{
   width: 220px;
   height: 2px;
-   background-color: green;
+   background-color: #98d5c3;
    position: relative;
    float: left;
    line-height: 150%;
@@ -240,10 +240,11 @@ body {
 .div_control_voice{
   width: 116px;
   height: 18px;
-  border: 1px solid black;
-  position: relative;
-  top:-251px;
+ 
+  position: absolute;
+  top:115px;
   left: 378px;
+ 
 
 
 }
@@ -253,3 +254,57 @@ body {
   left: 30px;
  
 }
+.ul_span_1{
+ width: 55px;
+ height: 134px;
+ border: 1px solid gray;
+ background-color: white;
+  text-align: center;
+  position: absolute;
+  top: 15px;
+  left: 0px;
+  display: none;
+  z-index: 10;
+}
+.li_span_1{
+  float: left;
+  list-style: none;
+  width: 96px;
+  height: 27px;
+  
+  font-size: 14px;
+  position: relative;
+  left: -41px;
+  top: 12px;
+
+}
+.li_span_1:hover{
+background-color: #e1e8e5;
+}
+.divtop_span_1:hover .ul_span_1{
+  display: block;
+}
+.div_voice_border{
+  width: 60px;
+  height: 2px;
+  background-color: gray;
+  position: relative;
+  left: 50px;
+  top: -12px;
+}
+.div_voice_process{
+  background-color: black;
+  line-height: 150%;
+  position: relative;
+  float: left;
+  top: -1px;
+}
+.div_voice_move{
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  position: relative;
+  float: right;
+  top: 0px;
+}
+.
