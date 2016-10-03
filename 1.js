@@ -1,15 +1,15 @@
 (function() {
-  var img_laba = document.getElementById("img_laba");
-  var control_voice = document.getElementsByClassName("div_control_voice")[0];
-  img_laba.onmouseover = function(){
-    if (control_voice.style.display == "none") {
-    control_voice.style.display = "block";
-    img_laba.src = "";
-  }/*else if(control_voice.style.display == "block") {
-    control_voice.style.display = "none";
-    img_laba.src = "images/laba.png";
-  }*/
-}
+    var img_laba = document.getElementById("img_laba");
+    var control_voice = document.getElementsByClassName("div_control_voice")[0];
+    img_laba.onmouseover = function() {
+        if (control_voice.style.display == "none") {
+            control_voice.style.display = "block";
+            img_laba.src = "images/play1.jpg";
+        } else {
+            control_voice.style.display = "none";
+            img_laba.src = "images/laba.png";
+        }
+    }
 
     var img_play = document.getElementById("img_play");
     var audio_player = document.getElementById("audio_player");
@@ -47,7 +47,7 @@
             move.style.width = "0%";
         }
     }
- var x_process, x_border, x_move, x_over, x_star;
+    var x_process, x_border, x_move, x_over, x_star;
     var voice_move = document.getElementsByClassName("div_voice_move")[0];
     var voice_border = document.getElementsByClassName("div_voice_border")[0];
     var voice_process = document.getElementsByClassName("div_voice_process")[0];
@@ -57,19 +57,19 @@
         x_process = voice_process.clientWidth;
     }
     voice_move.ondragend = function(event) {
-            x_over = event.clientX;
-            x_move = (x_over - x_star + x_process) / x_border;
-            console.log(x_move)
-            if (x_move <= 0) {
-                audio_player.volume = 0;
-            } else if (x_move >= 1) {
-                audio_player.volume = 1;
-            } else {
-                audio_player.volume = x_move;
-            }
-            voice_process.style.width = "100%";
-            voice_process.style.width = audio_player.volume * 100 + "%";
+        x_over = event.clientX;
+        x_move = (x_over - x_star + x_process) / x_border;
+        console.log(x_move)
+        if (x_move <= 0) {
+            audio_player.volume = 0;
+        } else if (x_move >= 1) {
+            audio_player.volume = 1;
+        } else {
+            audio_player.volume = x_move;
         }
+        voice_process.style.width = "100%";
+        voice_process.style.width = audio_player.volume * 100 + "%";
+    }
 
 
 

@@ -20,7 +20,6 @@ body {
 .divtop_span_1 {
     width: 105px;
     height: 30px;
-   
     color: #999;
     position: relative;
     top: 10px;
@@ -73,7 +72,7 @@ body {
     width: 100%;
     height: 272px;
     min-width: 120%;
-    overflow: auto; 
+    overflow: auto;
     border: 1px solid #e1e8e5;
     background-color: #e1e8e5;
     position: relative;
@@ -82,8 +81,7 @@ body {
 .div_middle_ul {
     width: 311px;
     height: 765px;
-   /* border: 1px solid black;*/
-    /*overflow-x: hidden;*/
+    overflow: hidden;
     position: relative;
     left: 253px;
     top: -25px;
@@ -107,6 +105,7 @@ body {
     margin-top: 14px;
     list-style: none;
 }
+
 .ul_middle_1 {
     width: 255px;
     height: 262px;
@@ -125,10 +124,11 @@ body {
     margin-top: 14px;
     list-style: none;
 }
+
 .ul_middle_2 {
     width: 255px;
     height: 70px;
-   /* border: 1px solid black;*/
+    /* border: 1px solid black;*/
     position: relative;
     top: 76px;
     left: 8px;
@@ -144,9 +144,16 @@ body {
     list-style: none;
 }
 
-
 .span_list {
     margin-left: 22px;
+}
+
+.span_list_1 {
+    background-color: white;
+}
+
+.span_list_2 {
+    background-color: #a1dac9;
 }
 
 .span_wenzi_1 {
@@ -182,6 +189,7 @@ body {
     top: 70px;
     left: 107px;
 }
+
 .span_wenzi_3 {
     font-size: 13px;
     color: #999;
@@ -245,126 +253,191 @@ body {
     position: relative;
     left: 20px;
 }
-.div_process{
-  width: 220px;
-  height: 2px;
-   background-color: grey;
-   position: relative;
-   left: 267px;
-   top: -222px;
-}
-.div_move{
-  width: 220px;
-  height: 2px;
-   background-color: #98d5c3;
-   position: relative;
-   float: left;
-   line-height: 150%;
-   
-}
-.div_player_time{
-  width: 32px;
-  height: 12px;
-  
-  color: gray;
-  position: relative;
-  font-size: 10px;
-  top: -220px;
-  left: 442px;
-}
-#img_laba{
-  position: relative;
- 
-}
-.div_paused{
-  width: 263px;
-  height: 243px;
-  text-align: center;
- 
-  line-height: 243px;
-  background-color: white;
-  opacity: 0.8;
-  position: relative;
-  top: -367px;
-  left:246px;
-}
-.div_control_voice{
-  width: 116px;
-  height: 18px;
- background-color: white;
-  position: absolute;
-  top:115px;
-  left: 378px;
- 
- 
 
+.div_process {
+    width: 220px;
+    height: 2px;
+    background-color: grey;
+    position: relative;
+    left: 267px;
+    top: -222px;
+}
 
+.div_move {
+    width: 220px;
+    height: 2px;
+    background-color: #98d5c3;
+    position: relative;
+    float: left;
+    line-height: 150%;
 }
-#img_laba_1{
-  position: relative;
-  top: 0px;
-  left: 30px;
 
- 
+.div_player_time {
+    width: 32px;
+    height: 12px;
+    color: gray;
+    position: relative;
+    font-size: 10px;
+    top: -220px;
+    left: 442px;
 }
-.ul_span_1{
- width: 55px;
- height: 134px;
- border: 1px solid gray;
- background-color: white;
-  text-align: center;
-  position: absolute;
-  top: 15px;
-  left: 0px;
-  display: none;
-  z-index: 10;
-}
-.li_span_1{
-  float: left;
-  list-style: none;
-  width: 96px;
-  height: 27px;
-  
-  font-size: 14px;
-  position: relative;
-  left: -41px;
-  top: 12px;
 
+#img_laba {
+    position: relative;
 }
-.li_span_1:hover{
-background-color: #e1e8e5;
+
+.div_paused {
+    width: 263px;
+    height: 243px;
+    text-align: center;
+    line-height: 243px;
+    background-color: white;
+    opacity: 0.8;
+    position: relative;
+    top: -367px;
+    left: 246px;
 }
-.divtop_span_1:hover .ul_span_1{
-  display: block;
+
+.div_control_voice {
+    width: 116px;
+    height: 18px;
+    background-color: white;
+    position: absolute;
+    top: 115px;
+    left: 378px;
 }
-.div_voice_border{
-  width: 60px;
-  height: 2px;
-  background-color: gray;
-  position: relative;
-  left: 50px;
-  top: -12px;
+
+#img_laba_1 {
+    position: relative;
+    top: 0px;
+    left: 30px;
 }
-.div_voice_process{
-  background-color: black;
-  line-height: 100%;
-  position: relative;
-  float: left;
-  top: -1px;
+
+.ul_span_1 {
+    width: 55px;
+    height: 134px;
+    border: 1px solid gray;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    display: none;
+    z-index: 10;
 }
-.div_voice_move{
-  width: 5px;
-  height: 5px;
-  background-color: black;
-  position: relative;
-  float: right;
-  top: 0px;
+
+.li_span_1 {
+    float: left;
+    list-style: none;
+    width: 96px;
+    height: 27px;
+    font-size: 14px;
+    position: relative;
+    left: -41px;
+    top: 12px;
 }
-.div_img_laba{
-  width: 19px;
-  height: 15px;
-  
-  position: absolute;
-  top: 116px;
-  left: 473px;
+
+.li_span_1:hover {
+    background-color: #e1e8e5;
+}
+
+.divtop_span_1:hover .ul_span_1 {
+    display: block;
+}
+
+.div_voice_border {
+    width: 60px;
+    height: 2px;
+    background-color: gray;
+    position: relative;
+    left: 50px;
+    top: -12px;
+}
+
+.div_voice_process {
+    background-color: black;
+    line-height: 100%;
+    position: relative;
+    float: left;
+    top: -1px;
+}
+
+.div_voice_move {
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    float: right;
+    top: 0px;
+}
+
+.div_img_laba {
+    width: 19px;
+    height: 15px;
+    position: absolute;
+    top: 116px;
+    left: 473px;
+}
+
+#img_xin {
+    position: absolute;
+    top: 188px;
+    left: 342px;
+}
+
+#img_shanchu {
+    position: absolute;
+    top: 185px;
+    left: 391px;
+}
+
+#img_jiantou {
+    position: absolute;
+    top: 191px;
+    left: 441px;
+}
+
+#img_fasong {
+    position: absolute;
+    top: 262px;
+    left: -9px;
+}
+
+.div_listen {
+    width: 95px;
+    height: 24px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 24px;
+    color: green;
+    border: 1px solid green;
+    position: absolute;
+    top: 274px;
+    left: 413px;
+}
+
+.div_listen:hover {
+    color: white;
+    background-color: green;
+}
+
+.div_enjoymusic {
+    width: 95px;
+    height: 24px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+    color: #a1a5a8;
+    position: absolute;
+    top: 312px;
+    left: 424px;
+}
+
+#div_music {
+    width: 95px;
+    height: 24px;
+    border: 1px solid black;
+    position: absolute;
+    top: 312px;
+    left: 424px;
 }
