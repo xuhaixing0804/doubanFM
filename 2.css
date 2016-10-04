@@ -5,7 +5,7 @@ body{
 #div_left_body{
 width: 675px;
 height: 1500px;
-border: 1px solid black;
+
 background-color: white;
 position: absolute;
 top: 0px;
@@ -14,7 +14,7 @@ left: 0px;
 #div_left_top{
 width: 675px;
 height: 170px;
-border: 1px solid black;
+/*border: 1px solid black;*/
 position: relative;
 }
 .span_left_title{
@@ -53,14 +53,42 @@ position: relative;
 #div_left_middle{
   width: 675px;
   height: 278px;
-  border: 1px solid black;
+ /* border: 1px solid white;*/
   
 }
 .div_left_picture{
-  width: 354px;
-  height: 257px;
+  width: 383px;
+  height: 278px;
+  background-color: #eff5f2;
+  position: relative;
+  top: -295px;
+  left: 290px;
+}
+.ul_left_nummber{
+  width: 329px;
+  height: 15px;
+  position: relative;
+  top: 27px;
+  left: -8px;
+}
+.li_left_nummber{
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  list-style: none;
+  float: left;
+  margin-right: 4px;
+  color: #888;
+  border-radius: 16px;
+  background-color: #d4e1dc;
+  cursor: pointer;
+}
+.div_left_text{
+  width:294px;
+  height: 186px;
   border: 1px solid black;
   position: relative;
-  top: -279px;
-  left: 290px;
+  top: 35px;
+  left: 29px; 
 }
