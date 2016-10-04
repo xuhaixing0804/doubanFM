@@ -92,6 +92,22 @@
         text_2.innerHTML = "热门歌曲：夜空中最亮的星 / 最初的梦想（Cover 范玮琪） / 一万次悲伤";
         text_3.innerHTML = "50首歌曲 兆赫详情";
     }
+    var span_add1 = document.getElementsByClassName("span_add1")[0];
+    var div_translate = document.getElementsByClassName("div_translate")[0];
+    span_add1.onmouseover = function(){
+      div_translate .style.display = "block";
+    }
+    span_add1.onmouseout = function(){
+      div_translate .style.display = "none";
+    }
 
-
+    var clickbutton = document.getElementById("div_clickbutton");
+    var div_body = document.getElementById("div_left_body");
+    clickbutton.onclick = function(){
+      if(div_body.style.left != "0px"){
+     div_body.style.left = "0px";
+     } else {
+       div_body.style.left = "-646px";
+     }
+    }
 }(window))

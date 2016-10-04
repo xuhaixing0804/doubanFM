@@ -97,7 +97,6 @@ body {
 .ul_middle {
     width: 255px;
     height: 206px;
-    /*border: 1px solid black;*/
     position: relative;
     top: 24px;
     left: 8px;
@@ -116,7 +115,6 @@ body {
 .ul_middle_1 {
     width: 255px;
     height: 262px;
-    /*border: 1px solid black;*/
     position: relative;
     top: 74px;
     left: 8px;
@@ -135,7 +133,6 @@ body {
 .ul_middle_2 {
     width: 255px;
     height: 70px;
-    /* border: 1px solid black;*/
     position: relative;
     top: 76px;
     left: 8px;
@@ -219,6 +216,7 @@ body {
     width: 510px;
     height: 245px;
     border: 1px solid white;
+    box-shadow: #99a9a2 0 0 20px;
     background-color: white;
     position: relative;
     top: -360px;
