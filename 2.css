@@ -87,8 +87,43 @@ position: relative;
 .div_left_text{
   width:294px;
   height: 186px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   position: relative;
   top: 35px;
   left: 29px; 
+}
+.left_text_1{
+  width: 293px;
+  height:38px;
+  /*border: 1px solid black;*/
+  font-size: 19px;
+  color: #636564;
+  position: relative;
+  top: 5px;
+
+}
+#img_MHZ{
+  position: relative;
+  left: 2px;
+  top: 5px;
+}
+.left_text_2{
+  width: 293px;
+  height:25px;
+  /*border: 1px solid black;*/
+  font-size: 12px;
+  color: #423c3c;
+  position: relative;
+  top: 25px;
+  
+}
+.left_text_3{
+  width: 293px;
+  height:45px;
+  /*border: 1px solid black;*/
+  font-size: 11px;
+  color: #636564;
+  position: relative;
+  top: 40px;
+ 
 }
