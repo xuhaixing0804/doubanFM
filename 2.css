@@ -242,8 +242,9 @@ body {
     top: -27px;
     left: 59px;
 }
-.span_3:hover{
-  color:#9dd6c5; 
+
+.span_3:hover {
+    color: #9dd6c5;
 }
 
 .bottom_title_2 {
@@ -275,82 +276,89 @@ body {
     top: 870px;
     left: 49px;
 }
-.div_translate{
-  width: 304px;
-  height: 125px;
-  border: 1px solid #72908f;
-  background-color: white;
-  position: absolute;
-  top: 96px;
-  left: 110px;
-  z-index:10;
+
+.div_translate {
+    width: 304px;
+    height: 125px;
+    border: 1px solid #72908f;
+    background-color: white;
+    position: absolute;
+    top: 96px;
+    left: 110px;
+    z-index: 10;
 }
-.div_translate_top{
-  width: 258px;
-  height: 60px;
-  border-bottom: 1px dotted #a09b9b;
-  position: absolute;
-  top: -8px;
-  left: 22px;
-   
+
+.div_translate_top {
+    width: 258px;
+    height: 60px;
+    border-bottom: 1px dotted #a09b9b;
+    position: absolute;
+    top: -8px;
+    left: 22px;
 }
-.div_translate_bottom{
-  width: 258px;
-  height: 60px;
-  position: absolute;
-  left: 22px;
-  top: 78px;
-  
+
+.div_translate_bottom {
+    width: 258px;
+    height: 60px;
+    position: absolute;
+    left: 22px;
+    top: 78px;
 }
-.span_up_1{
-  font-size: 15px;
-  color: #4b4b82;
-  font-weight: bolder;
-  position: relative;
-  top: 33px;
-  left: 10px;
+
+.span_up_1 {
+    font-size: 15px;
+    color: #4b4b82;
+    font-weight: bolder;
+    position: relative;
+    top: 33px;
+    left: 10px;
 }
-.span_up_2{
-  font-size: 14px;
-  color: #a09b9b;
-  position: relative;
-  top: 33px;
-  left: 7px;
+
+.span_up_2 {
+    font-size: 14px;
+    color: #a09b9b;
+    position: relative;
+    top: 33px;
+    left: 7px;
 }
-.span_down_1{
-  font-size: 15px;
-  color: #4b4b82;
-  font-weight: bolder;
-  position: relative;
-  top:-5px;
-  left: 7px;
+
+.span_down_1 {
+    font-size: 15px;
+    color: #4b4b82;
+    font-weight: bolder;
+    position: relative;
+    top: -5px;
+    left: 7px;
 }
-.span_down_2{
-  font-size: 14px;
-  color: #a09b9b;
-  position: relative;
-  top: -3px;
-  left: 4px;
-  
+
+.span_down_2 {
+    font-size: 14px;
+    color: #a09b9b;
+    position: relative;
+    top: -3px;
+    left: 4px;
 }
-#div_controlline{
-  width: 40px;
-  height: 1500px;
-  position: absolute;
-  top: 0px;
-  left: 633px;
+
+#div_controlline {
+    width: 40px;
+    height: 1500px;
+    position: absolute;
+    top: 0px;
+    left: 633px;
 }
-#div_clickbutton{
-  width: 16px;
-  height: 85px;
-  font-weight: bolder;
-  line-height: 85px;
-  background-color: #e1e8e5;
-  position: absolute;
-  top:270px;
-  left: 26px;
+
+#div_clickbutton {
+    width: 16px;
+    height: 85px;
+    font-weight: bolder;
+    line-height: 85px;
+    background-color: #e1e8e5;
+    position: absolute;
+    top: 270px;
+    left: 26px;
 }
-#div_clickbutton:hover{
-  background-color: #a1dac9;
-  cursor: pointer;
+
+#div_clickbutton:hover {
+    background-color: #a1dac9;
+    cursor: pointer;
 }

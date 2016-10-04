@@ -70,16 +70,16 @@
         voice_process.style.width = "100%";
         voice_process.style.width = audio_player.volume * 100 + "%";
     }
-var div_enjoy =document.getElementsByClassName("div_enjoy")[0];
-var div_music = document.getElementById("div_music");
-div_enjoy.onmouseover = function(){
-  div_music.style.display = "block";
-  div_enjoy.innerHTML = "";
-}
-div_enjoy.onmouseout = function(){
-  div_music.style.display = "none";
-   div_enjoy.innerHTML = "分享这首歌";
-}
+    var div_enjoy = document.getElementsByClassName("div_enjoy")[0];
+    var div_music = document.getElementById("div_music");
+    div_enjoy.onmouseover = function() {
+        div_music.style.display = "block";
+        div_enjoy.innerHTML = "";
+    }
+    div_enjoy.onmouseout = function() {
+        div_music.style.display = "none";
+        div_enjoy.innerHTML = "分享这首歌";
+    }
 
 
 
