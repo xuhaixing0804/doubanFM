@@ -10,22 +10,18 @@
             img_laba.src = "images/laba.png";
         }
     }
-
     var img_play = document.getElementById("img_play");
     var audio_player = document.getElementById("audio_player");
     var audio_paused = document.getElementsByClassName("div_paused")[0];
     img_play.onclick = function() {
-
         if (audio_player.paused) {
             audio_player.play();
             img_play.src = "images/play.jpg";
-
             audio_paused.style.display = "none";
         } else {
             audio_player.pause();
             img_play.src = "images/play1.jpg";
-
-            audio_paused.style.display = "block"
+            audio_paused.style.display = "block";
         }
     }
     var time = document.getElementsByClassName("div_player_time")[0];
@@ -40,7 +36,6 @@
             b = b;
         }
         time.innerHTML = a + ":" + b;
-
         var move = document.getElementsByClassName("div_move")[0];
         move.style.width = parseFloat(audio_player.currentTime / audio_player.duration) * 100 + "%";
         if (move.style.width == "100%") {

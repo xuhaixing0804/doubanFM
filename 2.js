@@ -3,7 +3,6 @@
     var text_1 = document.getElementsByClassName("left_text_1")[0];
     var text_2 = document.getElementsByClassName("left_text_2")[0];
     var text_3 = document.getElementsByClassName("left_text_3")[0];
-
     function c() {
         if (tupian.src.match("tu1.jpg")) {
             tupian.src = "images/tu2.jpg";
@@ -38,9 +37,6 @@
         }
     }
     window.setInterval(c, 3000);
-
-
-
     var text_1 = document.getElementsByClassName("left_text_1")[0];
     var text_2 = document.getElementsByClassName("left_text_2")[0];
     var text_3 = document.getElementsByClassName("left_text_3")[0];
@@ -100,7 +96,6 @@
     span_add1.onmouseout = function() {
         div_translate.style.display = "none";
     }
-
     var clickbutton = document.getElementById("div_clickbutton");
     var div_body = document.getElementById("div_left_body");
     clickbutton.onclick = function() {

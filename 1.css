@@ -82,8 +82,8 @@ body {
 #div_middle {
     width: 100%;
     height: 272px;
-    min-width: 101%;
     overflow: auto;
+    min-width: 102%;
     border: 1px solid #e1e8e5;
     background-color: #e1e8e5;
     position: relative;
